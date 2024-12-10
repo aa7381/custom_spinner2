@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lv"
+    android:layout_width="match_parent"
+    android:layout_height="200px"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iV"
+        android:layout_width="145dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="25"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/namecon"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:gravity="left|center_vertical" />
+
+    <TextView
+        android:id="@+id/Capital"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="25"
+        android:gravity="left|center_vertical" />
+</LinearLayout>
