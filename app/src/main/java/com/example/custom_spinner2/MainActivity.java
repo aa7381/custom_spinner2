@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     Spinner countreis;
     TextView tV ;
 
-    country[] s2 = new country[4];
+    country[] s2 = new country[7];
 
 
 
@@ -38,7 +38,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         s2[0] = new country(R.drawable.israel, "Israel", "Jerusalem", 12000000);
         s2[1] = new country(R.drawable.usa, "USA", "Washington D.C.", 331000000);
         s2[2] = new country(R.drawable.france, "France", "Paris", 67000000);
-        s2[3] = new country(R.drawable.britian, "london", "Berlin", 83000000);
+        s2[3] = new country(R.drawable.russia, "russia", "Moscow", 1000000000);
+        s2[4] = new country(R.drawable.britian, "britian", "london", 83000002);
+        s2[5] = new country(R.drawable.spain, "spain", "Madrid", 83000001);
+        s2[6] = new country(R.drawable.canada, "canada", "Ottawa", 83000003);
+
 
         countreis.setOnItemSelectedListener(this);
 

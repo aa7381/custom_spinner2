@@ -31,6 +31,7 @@ public class CustomAdapter extends BaseAdapter {
     @Override
     public Object getItem(int position)
     {
+
         return countries[position];
     }
 
