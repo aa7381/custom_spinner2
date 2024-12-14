@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         tV = findViewById(R.id.tV);
         countreis =  findViewById(R.id.countreis);
 
-        //countreis.setOnItemSelectedListener(this);
         s2[0] = new country(R.drawable.israel, "Israel", "Jerusalem", 12000000);
         s2[1] = new country(R.drawable.usa, "USA", "Washington D.C.", 331000000);
         s2[2] = new country(R.drawable.france, "France", "Paris", 67000000);
